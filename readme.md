@@ -1,7 +1,4 @@
-#discover_weekly_hoard
-* visualize & save the Spotify "Discover Weekly" playlist
-
-##"Discover Weekly" playlist
+##about Spotify's "Discover Weekly" playlist
 * Spotify recommended tracks based on own listening history & "what others are playlisting and listening to around the songs you love"
 * auto-updated every monday morning
 * exactly(?) 30 tracks, ~2 hrs
@@ -10,7 +7,10 @@
 * [verge article](http://www.theverge.com/2015/9/30/9416579/spotify-discover-weekly-online-music-curation-interview)
 * [quartz article](http://qz.com/571007/the-magic-that-makes-spotifys-discover-weekly-playlists-so-damn-good/)
 
-##tools & features
+#discover_weekly_hoard functionality 
+* visualize & save the Spotify "Discover Weekly" playlist
+
+##APIs & tools
 * [Spotify API](https://developer.spotify.com/web-api/)
 	* [OAuth 2.0 authorization](http://oauth.net/) necessary to get user's playlists
 	* get 'Discover Weekly' playlist
