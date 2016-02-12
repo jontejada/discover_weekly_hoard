@@ -1,4 +1,4 @@
-#discover_weekly_explorer
+#discover_weekly_hoard
 * visualize & save the Spotify "Discover Weekly" playlist
 
 ##"Discover Weekly" playlist
@@ -17,6 +17,7 @@
 	* get track info, album art, etc
 	* modify / create new playlists
 	* [Spotify URIs and IDs](https://developer.spotify.com/web-api/user-guide/#spotify-uris-and-ids)
+	* [Web API Object Model](https://developer.spotify.com/web-api/object-model/#external-id-object)
 * [Echo Nest API](http://developer.echonest.com/docs/v4)
 	* rich artist and song metadata
 		* [acoustic attributes](http://developer.echonest.com/acoustic-attributes.html)
@@ -34,9 +35,9 @@
 * nodemailer email sending with html, links, etc.
 * knex for postgresql
 
-##workflow
+##UX
 * homepage with app info & user login button
-	* authentication using ['Authorization Code Flow'](https://developer.spotify.com/web-api/authorization-guide/#authorization_code_flow)
+	* authentication using [Authorization Code Flow](https://developer.spotify.com/web-api/authorization-guide/#authorization_code_flow)
 * [Get a List of Current User's Playlists](https://developer.spotify.com/web-api/console/get-current-user-playlists/) with `GET https://api.spotify.com/v1/me/playlists`
 	* search the returned data for "Discover Weekly" value from key "name" in the data.items array of playlist objects
 	* (might need to edit the default offset/limit of this GET to find)
