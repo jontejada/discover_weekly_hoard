@@ -24,11 +24,11 @@
 	* [Echo Nest was acquired by Spotify in 2014](https://developer.spotify.com/news-stories/2014/03/06/echo-nest-joins-spotify/)
 	* [can use Spotify IDs](https://developer.spotify.com/spotify-echo-nest-api/)
 	* [code examples](https://developer.spotify.com/web-api/code-examples/)
-* app will live at http://www.jontejada.com/discover
-	* [heroku hosting](https://www.heroku.com)
-		* scheduling for weekly archiving
-	* [express](http://expressjs.com/en/4x/api.html) framework
-		* [express cheatsheet](http://ricostacruz.com/cheatsheets/express.html)
+* Angular framework
+* [heroku hosting](https://www.heroku.com)
+	* scheduling for weekly archiving
+* [express](http://expressjs.com/en/4x/api.html) framework?
+	* [express cheatsheet](http://ricostacruz.com/cheatsheets/express.html)
 	* [ejs](https://www.npmjs.com/package/ejs) templates
 
 ##extra features to build
