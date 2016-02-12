@@ -7,7 +7,7 @@
 * [verge article](http://www.theverge.com/2015/9/30/9416579/spotify-discover-weekly-online-music-curation-interview)
 * [quartz article](http://qz.com/571007/the-magic-that-makes-spotifys-discover-weekly-playlists-so-damn-good/)
 
-#discover_weekly_hoard functionality 
+##discover_weekly_hoard functionality 
 * visualize & save the Spotify "Discover Weekly" playlist
 
 ##APIs & tools
